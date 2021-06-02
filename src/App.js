@@ -16,7 +16,7 @@ import Gallery from './components/galleryComponent'
 function App() {
   return (
     <div>
-      <Router basename="/rm-site">
+      <Router basename="/rm-final">
       	<Switch>
       		<Route exact path="/" component={Home} />
           <Route exact path="/vsion" component={Vision} />
