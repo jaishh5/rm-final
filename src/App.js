@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { NavHashLink as Link } from 'react-router-hash-link';
 
 import Home from './components/homeComponent.js';
