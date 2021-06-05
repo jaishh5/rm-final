@@ -36,7 +36,7 @@ const Header = (props) => {
 				  		<Link to="/#about" activeClass="active" scroll={el => scrollWithOffset(el, 98)} duration={2000} className="navlink nav-link">ABOUT US</Link>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-	            <a href="/work" className="navlink nav-link">WORK</a>
+	            <a href="/rm-final/work" className="navlink nav-link">WORK</a>
 	          </NavItem>
 	        	<NavItem className="mx-auto navlink">
 	            <a href="/competition" className="navlink nav-link">COMPETITIONS</a>
