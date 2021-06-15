@@ -16,7 +16,7 @@ import Gallery from './components/galleryComponent'
 function App() {
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/">
       	<Switch>
       		<Route exact path="/" component={Home} />
           <Route exact path="/vsion" component={Vision} />
